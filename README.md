@@ -90,7 +90,7 @@ The default export is `jsonComments`.
 
 **TODO**: `jsonBlockComment`
 
-### `jsonLineComment`
+### [`jsonLineComment`](./src/line.comment.mts)
 
 **TODO**: `jsonLineComment`
 

@@ -3,7 +3,9 @@
  * @module docmark-extension-jsonc/comments
  */
 
+import { codes } from '@flex-development/docmark-util-symbol'
 import type { NormalizedExtension } from '@flex-development/docmark-util-types'
+import lineComment from './line.comment.mts'
 
 /**
  * The JSON comment syntax extension.
@@ -13,7 +15,7 @@ import type { NormalizedExtension } from '@flex-development/docmark-util-types'
  * @const {NormalizedExtension} comments
  */
 const comments: NormalizedExtension = {
-  source: {}
+  source: { [codes.slash]: [lineComment] }
 }
 
 export default comments

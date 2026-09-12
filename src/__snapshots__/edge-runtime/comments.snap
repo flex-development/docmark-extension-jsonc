@@ -2,6 +2,17 @@
 
 exports[`unit:comments > should be extension 1`] = `
 {
-  "source": {},
+  "source": {
+    "47": [
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeLineCommentContinuation],
+        },
+        "exit": [Function exitLineComment],
+        "name": "comment:jsonc:line",
+        "tokenize": [Function tokenizeLineComment],
+      },
+    ],
+  },
 }
 `;
