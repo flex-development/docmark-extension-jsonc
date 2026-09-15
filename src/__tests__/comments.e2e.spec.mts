@@ -44,10 +44,8 @@ describe('e2e:comments', () => {
   })
 
   it.each<[path: string]>([
-    ['line/single/01.txt'],
-    ['line/single/02.txt'],
-    ['line/multi/01.txt'],
-    ['source/01.txt']
+    ['source/01.txt'],
+    ['source/02.txt']
   ])('should parse line comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))

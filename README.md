@@ -86,7 +86,7 @@ The default export is `jsonComments`.
 
 **TODO**: `jsonComments`
 
-### `jsonBlockComment`
+### [`jsonBlockComment`](./src/block.comment.mts)
 
 **TODO**: `jsonBlockComment`
 
