@@ -85,4 +85,5 @@ ignore:
 
 profiling:
   critical_files_paths:
-    - src/comment.mts
+    - src/block.comment.mts
+    - src/line.comment.mts
