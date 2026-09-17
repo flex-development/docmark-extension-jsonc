@@ -46,7 +46,7 @@ describe('e2e:comments', () => {
   it.each<[path: string]>([
     ['source/01.txt'],
     ['source/02.txt']
-  ])('should parse line comments (%j)', path => {
+  ])('should parse json comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
     const slice: Chunk[] = preprocess()(file, undefined, true)

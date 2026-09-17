@@ -21,9 +21,15 @@ const comment: ContinuableConstruct & NamedConstruct = factoryBlockComment({
   construct: { name: `${tt.comment}:${lang.jsonc}:${kind.block}` },
   fields: { lang: lang.jsonc },
   markers: {
-    closer: [codes.asterisk, codes.slash],
+    closer: [
+      { code: codes.asterisk, type: null },
+      { code: codes.slash, type: null }
+    ],
     line: codes.asterisk,
-    opener: [codes.slash, codes.asterisk]
+    opener: [
+      { code: codes.slash, type: null },
+      { code: codes.asterisk, type: null }
+    ]
   }
 })
 
