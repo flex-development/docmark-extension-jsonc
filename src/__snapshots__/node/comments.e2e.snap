@@ -13,7 +13,6 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
         "offset": 103,
       },
       "kind": "line",
-      "lang": "jsonc",
       "start": {
         "_bufferIndex": 2,
         "_index": 2,
@@ -455,7 +454,6 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
         "offset": 103,
       },
       "kind": "line",
-      "lang": "jsonc",
       "start": {
         "_bufferIndex": 2,
         "_index": 2,
@@ -522,7 +520,6 @@ exports[`e2e:comments > should parse json comments ("source/02.txt") 1`] = `
         "offset": 190,
       },
       "kind": "block",
-      "lang": "jsonc",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2138,7 +2135,6 @@ exports[`e2e:comments > should parse json comments ("source/02.txt") 1`] = `
         "offset": 190,
       },
       "kind": "block",
-      "lang": "jsonc",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,

@@ -9,7 +9,6 @@ exports[`unit:comments > should be extension 1`] = `
           "tokenize": [Function tokenizeBlockCommentContinuation],
         },
         "exit": [Function exitBlockComment],
-        "name": "comment:jsonc:block",
         "tokenize": [Function tokenizeBlockComment],
       },
       {
@@ -17,7 +16,6 @@ exports[`unit:comments > should be extension 1`] = `
           "tokenize": [Function tokenizeLineCommentContinuation],
         },
         "exit": [Function exitLineComment],
-        "name": "comment:jsonc:line",
         "tokenize": [Function tokenizeLineComment],
       },
     ],

@@ -9,7 +9,7 @@ import blockComment from './block.comment.mts'
 import lineComment from './line.comment.mts'
 
 /**
- * The JSON comment syntax extension.
+ * The JSON comments syntax extension.
  *
  * @see {@linkcode NormalizedExtension}
  *
