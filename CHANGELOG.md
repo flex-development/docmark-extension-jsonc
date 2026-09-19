@@ -1,3 +1,14 @@
+## [1.0.0-alpha.3](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2026-09-19)
+
+### :package: Build
+
+- [[`e78df40`](https://github.com/flex-development/docmark-extension-jsonc/commit/e78df40f034357a684b142cd800744a62b621378)] **deps:** bump the docmark group with 4 updates
+
+### :robot: Continuous Integration
+
+- [[`c61da5d`](https://github.com/flex-development/docmark-extension-jsonc/commit/c61da5ddac467bab300fd216acb5d9ad9ebb48ac)] **workflows:** [`ci`] continue on bun canary setup failure
+- [[`efd197d`](https://github.com/flex-development/docmark-extension-jsonc/commit/efd197d0e64913abf34fa11d71dc95c6d6fb7701)] **workflows:** use `client-id` to create bot token
+
 ## [1.0.0-alpha.2](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2026-09-17)
 
 ### :package: Build
@@ -38,6 +49,7 @@
 ### :wastebasket: Reverts
 
 - [[`f587fa3`](https://github.com/flex-development/docmark-extension-jsonc/commit/f587fa37372926605407d3b4745cc3c8cb38b3a7)] [#1](https://github.com/flex-development/docmark-extension-jsonc/issues/1)
+
 
 
 
