@@ -1,3 +1,13 @@
+## [1.0.0-alpha.4](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2026-09-20)
+
+### :package: Build
+
+- [[`4b85732`](https://github.com/flex-development/docmark-extension-jsonc/commit/4b857321b10e36e58e37fb2fa84af5eb45b2f843)] **deps:** bump the docmark group with 3 updates
+
+### :white_check_mark: Testing
+
+- [[`198568a`](https://github.com/flex-development/docmark-extension-jsonc/commit/198568a2648c12bb5927350d97bf22ed72fbab4e)] improve testing boundary
+
 ## [1.0.0-alpha.3](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2026-09-19)
 
 ### :package: Build
@@ -49,6 +59,7 @@
 ### :wastebasket: Reverts
 
 - [[`f587fa3`](https://github.com/flex-development/docmark-extension-jsonc/commit/f587fa37372926605407d3b4745cc3c8cb38b3a7)] [#1](https://github.com/flex-development/docmark-extension-jsonc/issues/1)
+
 
 
 
