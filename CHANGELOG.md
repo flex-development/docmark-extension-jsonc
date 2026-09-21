@@ -1,3 +1,9 @@
+## [1.0.0-alpha.5](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2026-09-21)
+
+### :package: Build
+
+- [[`1a649fd`](https://github.com/flex-development/docmark-extension-jsonc/commit/1a649fd7984526b05e5748c5e96958f07e7464f7)] **deps:** bump the docmark group with 4 updates
+
 ## [1.0.0-alpha.4](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2026-09-20)
 
 ### :package: Build
@@ -59,6 +65,7 @@
 ### :wastebasket: Reverts
 
 - [[`f587fa3`](https://github.com/flex-development/docmark-extension-jsonc/commit/f587fa37372926605407d3b4745cc3c8cb38b3a7)] [#1](https://github.com/flex-development/docmark-extension-jsonc/issues/1)
+
 
 
 
