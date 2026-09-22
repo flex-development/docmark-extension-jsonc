@@ -1,3 +1,14 @@
+## [1.0.0-alpha.6](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2026-09-22)
+
+### :package: Build
+
+- [[`e74e4a1`](https://github.com/flex-development/docmark-extension-jsonc/commit/e74e4a101cf30d79582361ab6020bb81af49450b)] **deps-dev:** Bump rollup from 4.63.3 to 4.63.4 ([#20](https://github.com/flex-development/docmark-extension-jsonc/issues/20))
+- [[`bcef23a`](https://github.com/flex-development/docmark-extension-jsonc/commit/bcef23acaaf3aa0b4f1a08537b74ba8f0183e7f6)] **deps:** bump the docmark group with 1 update
+
+### :robot: Continuous Integration
+
+- [[`49f06b4`](https://github.com/flex-development/docmark-extension-jsonc/commit/49f06b48ce68867fbf3657600c4a386f6bcb5451)] **deps:** Bump codecov/codecov-action from 7.1.0 to 7.1.1 ([#18](https://github.com/flex-development/docmark-extension-jsonc/issues/18))
+
 ## [1.0.0-alpha.5](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2026-09-21)
 
 ### :package: Build
@@ -65,6 +76,7 @@
 ### :wastebasket: Reverts
 
 - [[`f587fa3`](https://github.com/flex-development/docmark-extension-jsonc/commit/f587fa37372926605407d3b4745cc3c8cb38b3a7)] [#1](https://github.com/flex-development/docmark-extension-jsonc/issues/1)
+
 
 
 
