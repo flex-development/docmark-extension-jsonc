@@ -27,11 +27,11 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
     "enter",
     {
       "end": {
-        "_bufferIndex": 5,
+        "_bufferIndex": 4,
         "_index": 2,
-        "column": 6,
+        "column": 5,
         "line": 2,
-        "offset": 7,
+        "offset": 6,
       },
       "start": {
         "_bufferIndex": 2,
@@ -40,7 +40,8 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
         "line": 2,
         "offset": 4,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -132,6 +133,27 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 4,
+        "_index": 2,
+        "column": 5,
+        "line": 2,
+        "offset": 6,
+      },
+      "start": {
+        "_bufferIndex": 2,
+        "_index": 2,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -171,26 +193,6 @@ exports[`e2e:comments > should parse json comments ("source/01.txt") 1`] = `
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 5,
-        "_index": 2,
-        "column": 6,
-        "line": 2,
-        "offset": 7,
-      },
-      "start": {
-        "_bufferIndex": 2,
-        "_index": 2,
-        "column": 3,
-        "line": 2,
-        "offset": 4,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
