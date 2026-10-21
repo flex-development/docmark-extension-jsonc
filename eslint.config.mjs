@@ -15,7 +15,7 @@ import fldv from '@flex-development/eslint-config'
 const config = [
   ...fldv.configs.node,
   {
-    files: ['src/*.comment.mts'],
+    files: ['__fixtures__/constructs/*.mts', '__fixtures__/initialize/*.mts'],
     rules: {
       'unicorn/no-this-assignment': 0
     }

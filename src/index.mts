@@ -3,6 +3,6 @@
  * @module docmark-extension-jsonc
  */
 
-export { default as jsonBlockComment } from './block.comment.mts'
 export { default, default as jsonComments } from './comments.mts'
-export { default as jsonLineComment } from './line.comment.mts'
+export * from './constructs/index.mts'
+export type * from './interfaces/index.mts'

@@ -2,9 +2,9 @@
 
 exports[`e2e:docmark-extension-jsonc > should expose public api 1`] = `
 [
-  "jsonBlockComment",
   "default",
   "jsonComments",
+  "jsonBlockComment",
   "jsonLineComment",
 ]
 `;

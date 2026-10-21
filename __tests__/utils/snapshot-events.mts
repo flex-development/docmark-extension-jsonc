@@ -3,6 +3,7 @@
  * @module tests/utils/snapshotEvents
  */
 
+import jt from '#fixtures/jt'
 import { ev, tt } from '@flex-development/docmark-util-symbol'
 import type {
   Event,
@@ -24,6 +25,7 @@ function snapshotEvents(this: void, events: Event[]): [EventType, Token][] {
   return events.map(([event, token, self]) => {
     if (
       event === ev.enter &&
+      token.type !== jt.arrayExpression &&
       token.type !== tt.blockQuotePrefix &&
       token.type !== tt.characterReference &&
       token.type !== tt.codeFenced &&
@@ -52,6 +54,7 @@ function snapshotEvents(this: void, events: Event[]): [EventType, Token][] {
       token.type !== tt.link &&
       token.type !== tt.listItemPrefix &&
       token.type !== tt.namepath &&
+      token.type !== jt.objectExpression &&
       token.type !== tt.paragraph &&
       token.type !== tt.reference &&
       token.type !== tt.referenceString &&
@@ -60,9 +63,11 @@ function snapshotEvents(this: void, events: Event[]): [EventType, Token][] {
       token.type !== tt.summaryMarker &&
       token.type !== tt.tagName &&
       token.type !== tt.tagNameMarker &&
+      token.type !== tt.typeExpression &&
       token.type !== tt.typeMetadata &&
       token.type !== tt.typeMetadataMarker &&
       !token._container &&
+      !token._region &&
       !Object.prototype.hasOwnProperty.call(token, 'value')
     ) {
       token.value = self.sliceSerialize(token)

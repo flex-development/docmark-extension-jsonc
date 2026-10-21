@@ -2,13 +2,14 @@
 
 exports[`unit:comments > should be extension 1`] = `
 {
-  "source": {
+  "comments": {
     "47": [
       {
         "continuation": {
           "tokenize": [Function tokenizeBlockCommentContinuation],
         },
         "exit": [Function exitBlockComment],
+        "resolve": [Function resolveBlockComment],
         "tokenize": [Function tokenizeBlockComment],
       },
       {
@@ -19,6 +20,11 @@ exports[`unit:comments > should be extension 1`] = `
         "tokenize": [Function tokenizeLineComment],
       },
     ],
+  },
+  "settings": {
+    "json": {
+      "comments": true,
+    },
   },
 }
 `;

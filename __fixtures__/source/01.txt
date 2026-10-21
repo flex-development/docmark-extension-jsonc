@@ -1,8 +1,2 @@
-{
-  // "$schema": "https://raw.githubusercontent.com/flex-development/grease/main/grease.schema.json",
-  "tag": {
-    "message": "release: {tag}",
-    "prefix": "",
-    "sign": true
-  }
-}
+// https://github.com/flex-development/docmark-extension-jsonc
+/* https://github.com/flex-development/docmark-extension-jsonc */

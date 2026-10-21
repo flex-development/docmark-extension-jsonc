@@ -27,6 +27,10 @@
   - [`jsonBlockComment`][api-json-block-comment]
   - [`jsonLineComment`][api-json-line-comment]
 - [Types](#types)
+  - [`Options`][types-options]
+  - Module Augmentations
+    - [`ParseContext`][augmentations-parse-context]
+    - [`Settings`][augmentations-settings]
 - [Project](#project)
   - [Version](#version)
   - [Contribute](#contribute)
@@ -86,17 +90,55 @@ The default export is `jsonComments`.
 
 **TODO**: `jsonComments`
 
-### [`jsonBlockComment`](./src/block.comment.mts)
+### [`jsonBlockComment`](./src/constructs/block.comment.mts)
 
 **TODO**: `jsonBlockComment`
 
-### [`jsonLineComment`](./src/line.comment.mts)
+### [`jsonLineComment`](./src/constructs/line.comment.mts)
 
 **TODO**: `jsonLineComment`
 
 ## Types
 
-This package is fully typed with [TypeScript][].
+This package is fully typed with [TypeScript][].\
+It exports additional types.
+
+### `Options`
+
+#### Extends
+
+- [`LanguageOptions`][language-options]
+
+#### Properties
+
+- `comments` (`boolean` | `null` | `undefined`, optional)
+  — whether comments are allowed
+  - **default**: `true`
+- `docs` (`boolean` | `null` | `undefined`, optional)
+  — whether docblocks are supported
+
+### Module Augmentations
+
+### `ParseContext`
+
+For more info, see [`ParseContext`][parse-context] from [`@flex-development/docmark-util-types`][docmark-util-types].\
+New and mutated properties added by this package are documented below.
+
+#### Properties
+
+- `skipComment` (`boolean` | `undefined`, optional)
+  — whether a comment is not allowed at the current position
+
+### `Settings`
+
+For more info, see [`Settings`][settings] from [`@flex-development/docmark-util-types`][docmark-util-types].\
+New and mutated properties added by this package are documented below.
+
+#### Properties
+
+- `json` ([`Options`][types-options] | `null` | `undefined`, optional)
+  — json comment parsing options.\
+  when building `docmark` extensions, developers should extend [`Options`][types-options] and re-augment `Settings`
 
 ## Project
 
@@ -113,7 +155,7 @@ By interacting with this repository, organization, or community you agree to abi
 
 ### Sponsor
 
-Small primitives power larger systems.
+Small primitives power larger systems.\
 Support long-term stability by sponsoring Flex Development.
 
 [api-json-block-comment]: #jsonblockcomment
@@ -122,13 +164,27 @@ Support long-term stability by sponsoring Flex Development.
 
 [api-json-line-comment]: #jsonlinecomment
 
+[augmentations-parse-context]: #parsecontext
+
+[augmentations-settings]: #settings
+
 [docmark]: https://github.com/flex-development/docmark
+
+[docmark-util-types]: https://github.com/flex-development/docmark/tree/main/packages/docmark-util-types
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
 [esmsh]: https://esm.sh
 
+[language-options]: https://github.com/flex-development/docmark/blob/main/packages/docmark-util-types/src/language-options.mts
+
+[parse-context]: https://github.com/flex-development/docmark/blob/main/packages/docmark-util-types/src/parse-context.mts
+
 [semver]: https://semver.org
+
+[settings]: https://github.com/flex-development/docmark/blob/main/packages/docmark-util-types/src/settings.mts
+
+[types-options]: #options
 
 [typescript]: https://www.typescriptlang.org
 

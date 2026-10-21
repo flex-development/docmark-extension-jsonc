@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`unit:lineComment > should be comment construct 1`] = `
+exports[`unit:constructs/lineComment > should be comment construct 1`] = `
 {
   "continuation": {
     "tokenize": [Function tokenizeLineCommentContinuation],
