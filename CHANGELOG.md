@@ -1,3 +1,9 @@
+## [1.0.0-alpha.8](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.7...1.0.0-alpha.8) (2026-10-21)
+
+### :package: Build
+
+- [[`c868b61`](https://github.com/flex-development/docmark-extension-jsonc/commit/c868b611a6ded345003a5bc3a7fcfda0ce31f0d1)] **pkg:** add `exports["./*"]` for module augmentations
+
 ## [1.0.0-alpha.7](https://github.com/flex-development/docmark-extension-jsonc/compare/1.0.0-alpha.6...1.0.0-alpha.7) (2026-10-21)
 
 ### :package: Build
@@ -115,6 +121,7 @@
 ### :wastebasket: Reverts
 
 - [[`f587fa3`](https://github.com/flex-development/docmark-extension-jsonc/commit/f587fa37372926605407d3b4745cc3c8cb38b3a7)] [#1](https://github.com/flex-development/docmark-extension-jsonc/issues/1)
+
 
 
 
