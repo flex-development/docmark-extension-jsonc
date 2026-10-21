@@ -48,7 +48,11 @@
       "docmark-extension-jsonc": "./src/index.mts",
       "default": "./dist/index.mjs"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./*": {
+      "docmark-extension-jsonc": "./src/typings/@flex-development/docmark-util-types/*.d.mts",
+      "default": "./dist/typings/@flex-development/docmark-util-types/*.d.mts"
+    }
   },
   "imports": {
     "#fixtures/*": "./__fixtures__/*.mts",

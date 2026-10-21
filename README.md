@@ -121,6 +121,10 @@ It exports additional types.
 
 ### `ParseContext`
 
+```ts
+import type {} from '@flex-development/docmark-extension-jsonc/parse-context'
+```
+
 For more info, see [`ParseContext`][parse-context] from [`@flex-development/docmark-util-types`][docmark-util-types].\
 New and mutated properties added by this package are documented below.
 
@@ -130,6 +134,10 @@ New and mutated properties added by this package are documented below.
   — whether a comment is not allowed at the current position
 
 ### `Settings`
+
+```ts
+import type {} from '@flex-development/docmark-extension-jsonc/settings'
+```
 
 For more info, see [`Settings`][settings] from [`@flex-development/docmark-util-types`][docmark-util-types].\
 New and mutated properties added by this package are documented below.
