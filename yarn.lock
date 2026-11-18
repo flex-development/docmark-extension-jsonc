@@ -1749,7 +1749,7 @@ __metadata:
     cspell: "npm:10.5.0"
     devlop: "npm:1.1.0"
     dprint: "npm:0.64.3"
-    editorconfig: "npm:4.0.0"
+    editorconfig: "npm:4.0.1"
     eslint: "npm:9.39.5"
     growl: "npm:1.10.5"
     happy-dom: "npm:21.0.4"
@@ -4874,7 +4874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^15.0.0, commander@npm:^15.1.0":
+"commander@npm:^15.1.0":
   version: 15.1.0
   resolution: "commander@npm:15.1.0"
   checksum: 10/31eb448f2ccccf9c193d33c201fd44d2f5311db3d53c8831f650a7df94fa97bf252c7ac6d9ba4a44fce0ac1b667bc09c58311dbc24a2e98384befe2e6b3ecadf
@@ -5440,17 +5440,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editorconfig@npm:4.0.0":
-  version: 4.0.0
-  resolution: "editorconfig@npm:4.0.0"
+"editorconfig@npm:4.0.1":
+  version: 4.0.1
+  resolution: "editorconfig@npm:4.0.1"
   dependencies:
     "@one-ini/wasm": "npm:0.2.3"
-    commander: "npm:^15.0.0"
-    minimatch: "npm:~11.0.4"
+    commander: "npm:^15.1.0"
+    minimatch: "npm:~11.0.5"
     semver: "npm:^7.8.6"
   bin:
     editorconfig: bin/editorconfig
-  checksum: 10/ec02f0e6be0d92ec7dc5e998f979921e34d3a8822408e4d0b2cf044a518390d26e7e05b92eae02024c448f27a05d29b4550e2e99ab2328227d318f7c6e133200
+  checksum: 10/0c9cdc32339296e7d322692d17652fbeb10b99c460b7839fb73f88a422ee6f2b478f6fe789c02f37d57e03b71a8485343e6dc81b36413da1508bbc36a435fa70
   languageName: node
   linkType: hard
 
@@ -8935,7 +8935,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:~11.0.4":
+"minimatch@npm:~11.0.5":
   version: 11.0.8
   resolution: "minimatch@npm:11.0.8"
   dependencies:
